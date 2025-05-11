@@ -1,22 +1,23 @@
 {
-  "name": "actupolitik",
-  "license": "0BSD",
+  "name": "ActuPolitik",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/App.jsx",
   "scripts": {
     "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
+    "android": "expo run:android",
     "web": "expo start --web"
   },
   "dependencies": {
-    "expo": "~53.0.9",
-    "expo-status-bar": "~2.2.3",
-    "react": "19.0.0",
-    "react-native": "0.79.2"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.20.0"
-  },
-  "private": true
+    "react": "17.0.2",
+    "react-native": "0.64.3",
+    "expo": "~44.0.0",
+    "tailwindcss": "^3.0.0",
+    "firebase": "^9.0.0",
+    "axios": "^0.24.0",
+    "openai": "^3.0.0",
+    "recharts": "^2.1.9",
+    "jspdf": "^2.5.1",
+    "file-saver": "^2.0.5",
+    "framer-motion": "^6.0.0"
+  }
 }
